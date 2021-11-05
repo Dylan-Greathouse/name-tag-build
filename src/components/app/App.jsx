@@ -1,7 +1,13 @@
 import React from 'react';
-import NameTag from '../../containers/NameTag';
+import Controls from '../name-tag/Controls';
+import Display from '../name-tag/Display';
 
 export default function App() {
-  return <NameTag />;
+  return ( 
+    <>
+      <Controls />
+      <Display />
+    </>
+  );
 }
   
